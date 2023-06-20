@@ -5,7 +5,7 @@ export function Navbar(prop){
     <img src="/images/logo.svg" alt="logo"/>
     <div className="flex items-center">
     <div className="flex items-center justify-center cursor-pointer " onClick ={prop.dropDown}>
-        <p className={`${prop.dark ? "text-light-gray" : "text-dark-gray"} font-bold text-lg mr-4`} >{prop.font}</p>
+        <p className={`${prop.dark ? "text-light-gray" : "text-dark-gray"} font-bold text-base 500:text-lg mr-4`} >{prop.font}</p>
         <svg xmlns="http://www.w3.org/2000/svg" className = {`transition-all max-w-full ${prop.show ? "rotate-180" : ""}`} width="14" height="8" viewBox="0 0 14 8"><path fill="none" stroke="#A445ED" strokeWidth="1.5" d="m1 1 6 6 6-6"/></svg>
     </div>
     <div className={`font-bold -mt-9 text-lg duration-700 ${prop.dark ? "text-light-gray shadow-[0px_0px_20px_0px_rgb(164,69,237)] bg-black-gray" : "text-dark-gray shadow-[0px_0px_20px_0px_rgba(0,0,0,0.25)] bg-white"} flex-col absolute top-32 ] rounded-2xl py-5 pl-5 pr-20 ${prop.show ? "flex" : "hidden"} ${prop.font == "Sans Serif" ? "-translate-x-1/4" : (prop.font == "Serif" ? "-translate-x-2/4" : "-translate-x-2/4")}`}>

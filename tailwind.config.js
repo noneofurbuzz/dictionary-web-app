@@ -27,7 +27,7 @@ export default {
       width:{
         "100":"33rem",
         "110":"35rem",
-        "120":"45rem"
+        "120":"45rem",
       },
       fontFamily : {
         "inconsolata" : ["inconsolata","monospace"],
@@ -39,7 +39,13 @@ export default {
       },
       fontSize : {
         "6xl" : "4rem",
-        "2.5xl" : "1.6rem"
+        "2.5xl" : "1.6rem",
+        "3" : "2.5rem",
+        "xl-1" : "1rem"
+      },
+      screens:{
+        "md-1" :"800px",
+        "500" :"500px"
       }
     },
   },
