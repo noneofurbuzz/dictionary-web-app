@@ -41,11 +41,11 @@ export default {
         "6xl" : "4rem",
         "2.5xl" : "1.6rem",
         "3" : "2.5rem",
-        "xl-1" : "1rem"
+        "xl-1" : "1.3rem"
       },
       screens:{
         "md-1" :"800px",
-        "500" :"500px"
+        "500" :"600px"
       }
     },
   },

@@ -5,7 +5,7 @@ export function Searchbar(prop){
             <input type="text" name="word" value={prop.input} onChange={prop.onChange} className={`w-full rounded-lg border-none 500:text-xl text-base focus:ring-0 ${prop.dark ? ("bg-darker-gray text-white placeholder-gray") : ("bg-whitish-gray text-dark-gray placeholder-gray")}`} autoComplete="off" spellCheck = "false" placeholder="Search for any word..."/>
             <img src="/images/icon-search.svg" alt="search" className="mx-4"/>
         </form>
-        {prop.error && <p className="text-red mt-2 500:text-xl text-lg">Whoops,can&#39;t be empty</p>}
+        {prop.error && <p className="text-red mt-2 500:text-xl text-base">Whoops,can&#39;t be empty</p>}
         </>
         
     )

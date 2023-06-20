@@ -99,7 +99,7 @@ function App() {
 
   return (
     <div className={ `${font == "Sans Serif" ? "font-inter" : (font == "Serif" ? "font-lora" : "font-inconsolata")} flex flex-col items-center min-h-screen duration-700 ${dark ? "bg-black" : "hover:bg-white"} py-12`} >
-      <div className="md-1:w-120 w-5/6">
+      <div className="md-1:w-120 w-5/6" >
       <Navbar 
       dark = {dark}
       onClick = {themeToggle}
