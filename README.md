@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://dictionary-web-3c0lkbgwk-noneofurbuzz.vercel.app/)
+- Live Site URL: [Live Site](https://dictionary-web-app-eight-zeta.vercel.app/)
 
 
 ## My process
